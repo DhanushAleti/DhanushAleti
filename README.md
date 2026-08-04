@@ -7,7 +7,8 @@
 
 <br/><br/>
 
-<a href="mailto:aletidhanush9999@gmail.com"><img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/dhanushaleti/"><img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:aletidhanush9999@gmail.com"><img src="https://img.shields.io/badge/Email-6366F1?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://github.com/DhanushAleti"><img src="https://img.shields.io/badge/GitHub-4F46E5?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
 <br/><br/>
@@ -98,6 +99,7 @@ Private repos — happy to walk through the code or architecture on request.
 Open to **software engineering and AI engineering roles**, freelance work, and
 open-source collaboration.
 
+- **LinkedIn** — [in/dhanushaleti](https://www.linkedin.com/in/dhanushaleti/)
 - **Email** — [aletidhanush9999@gmail.com](mailto:aletidhanush9999@gmail.com)
 - **GitHub** — [@DhanushAleti](https://github.com/DhanushAleti)
 
