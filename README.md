@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-  <img alt="Dhanush Aleti — Software Engineer, AI/ML, Full-Stack" width="100%" src="./light.svg">
+  <img alt="Dhanush Aleti — AI Orchestrator, AI/ML Engineer, Full-Stack Developer" width="100%" src="./light.svg">
 </picture>
 
 <br/><br/>
@@ -21,14 +21,15 @@
 
 ## About
 
-I'm a student at IIT Madras who spends most of his time building. My work sits at the
-intersection of **applied AI** and **product engineering** — I like taking an idea from a
-blank repo to something running, then figuring out where it breaks.
+I'm a student at IIT Madras who spends most of his time building. I work as an
+**AI orchestrator** — designing systems where models, tools, and agents do the heavy
+lifting, and my job is deciding how the pieces fit, where the handoffs happen, and what
+to do when one of them fails.
 
-Right now that means building LLM-powered products end to end: retrieval pipelines, agent
-workflows, and the full-stack surface around them. I also keep one foot in scientific
-computing — transit-search pipelines over real NASA telescope data and orbital mechanics
-are what got me into programming in the first place.
+In practice that means LLM products built end to end: retrieval pipelines, agent
+workflows, tool-use orchestration, and the full-stack surface wrapped around them. I also
+keep one foot in scientific computing — transit-search pipelines over real NASA telescope
+data and orbital mechanics are what got me into programming in the first place.
 
 I build in public. Most of what I learn ends up as a repo here, including the parts that
 are still rough.
@@ -96,7 +97,7 @@ Private repos — happy to walk through the code or architecture on request.
 
 ## Contact
 
-Open to **software engineering and AI engineering roles**, freelance work, and
+Open to **AI engineering and software engineering roles**, freelance work, and
 open-source collaboration.
 
 - **LinkedIn** — [in/dhanushaleti](https://www.linkedin.com/in/dhanushaleti/)
