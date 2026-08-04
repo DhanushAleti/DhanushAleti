@@ -51,14 +51,14 @@
     </filter>
 
     <clipPath id="wipe">
-      <rect x="0" y="0" width="360" height="0">
-        <animate attributeName="height" values="0;508" dur="1.5s" begin="0.1s" fill="freeze"/>
+      <rect x="0" y="0" width="360" height="508">
+        <animate attributeName="height" begin="0s" dur="1.600s" keyTimes="0;0.0625;1" values="0;0;508" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1" fill="freeze"/>
       </rect>
     </clipPath>
 
     <clipPath id="nameWipe">
-      <rect x="0" y="56" width="0" height="56">
-        <animate attributeName="width" values="0;520" dur="0.9s" begin="0.3s" fill="freeze"/>
+      <rect x="0" y="56" width="520" height="56">
+        <animate attributeName="width" begin="0s" dur="1.200s" keyTimes="0;0.2500;1" values="0;0;520" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1" fill="freeze"/>
       </rect>
     </clipPath>
   </defs>
@@ -168,12 +168,12 @@
           <text x="46" y="96" font-size="42" font-weight="700" letter-spacing="-1" fill="#F8FAFC">Dhanush Aleti</text>
         </g>
 
-        <rect x="46" y="116" width="0" height="2.5" rx="1.25" fill="url(#rule)">
-          <animate attributeName="width" values="0;150" dur="0.7s" begin="1.05s" fill="freeze"/>
+        <rect x="46" y="116" width="150" height="2.5" rx="1.25" fill="url(#rule)">
+          <animate attributeName="width" begin="0s" dur="1.750s" keyTimes="0;0.6000;1" values="0;0;150" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1" fill="freeze"/>
         </rect>
 
         <g font-family="'JetBrains Mono','SFMono-Regular',Menlo,monospace" font-size="19" font-weight="500">
-        <g opacity="0">
+        <g opacity="1">
           <animate attributeName="opacity" begin="0s" dur="12s" repeatCount="indefinite"
                    keyTimes="0;0.02;0.313;0.333;1" values="0;1;1;0;0"/>
           <text x="46" y="162" fill="#F8FAFC">AI Orchestrator</text>
@@ -202,19 +202,19 @@
         <line x1="46" y1="192" x2="654" y2="192" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
 
         <g font-family="'JetBrains Mono','SFMono-Regular',Menlo,monospace">
-        <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.55s" dur="0.5s" fill="freeze"/>
+        <g opacity="1"><animate attributeName="opacity" begin="0s" dur="2.050s" keyTimes="0;0.7561;1" values="0;0;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1" fill="freeze"/>
           <text x="46" y="230" font-size="10" letter-spacing="2.2" fill="#64748B">LOCATION</text>
           <text x="46" y="254" font-size="15.5" fill="#94A3B8">Hyderabad, India</text>
         </g>
-        <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.69s" dur="0.5s" fill="freeze"/>
+        <g opacity="1"><animate attributeName="opacity" begin="0s" dur="2.190s" keyTimes="0;0.7717;1" values="0;0;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1" fill="freeze"/>
           <text x="366" y="230" font-size="10" letter-spacing="2.2" fill="#64748B">EDUCATION</text>
           <text x="366" y="254" font-size="15.5" fill="#94A3B8">IIT Madras</text>
         </g>
-        <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.83s" dur="0.5s" fill="freeze"/>
+        <g opacity="1"><animate attributeName="opacity" begin="0s" dur="2.330s" keyTimes="0;0.7854;1" values="0;0;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1" fill="freeze"/>
           <text x="46" y="292" font-size="10" letter-spacing="2.2" fill="#64748B">FOCUS</text>
           <text x="46" y="316" font-size="15.5" fill="#94A3B8">Agentic AI systems</text>
         </g>
-        <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.9700000000000002s" dur="0.5s" fill="freeze"/>
+        <g opacity="1"><animate attributeName="opacity" begin="0s" dur="2.470s" keyTimes="0;0.7976;1" values="0;0;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1" fill="freeze"/>
           <text x="366" y="292" font-size="10" letter-spacing="2.2" fill="#64748B">OPEN TO</text>
           <text x="366" y="316" font-size="15.5" fill="#94A3B8">AI / SWE Engineer roles</text>
         </g>
@@ -223,9 +223,9 @@
         <line x1="46" y1="352" x2="654" y2="352" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
 
         <g font-family="'JetBrains Mono','SFMono-Regular',Menlo,monospace">
-          <text x="46" y="384" font-size="10.5" letter-spacing="2.2" fill="#64748B" opacity="0">STACK
-            <animate attributeName="opacity" values="0;1" begin="2s" dur="0.5s" fill="freeze"/></text>
-        <text x="46" y="414" font-size="12.5" fill="#94A3B8" opacity="0" xml:space="preserve">Python · TypeScript · PyTorch · FastAPI · Next.js · React · Postgres · Docker<animate attributeName="opacity" values="0;1" begin="2.15s" dur="0.5s" fill="freeze"/></text>
+          <text x="46" y="384" font-size="10.5" letter-spacing="2.2" fill="#64748B" opacity="1">STACK
+            <animate attributeName="opacity" begin="0s" dur="2.500s" keyTimes="0;0.8000;1" values="0;0;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1" fill="freeze"/></text>
+        <text x="46" y="414" font-size="12.5" fill="#94A3B8" opacity="1" xml:space="preserve">Python · TypeScript · PyTorch · FastAPI · Next.js · React · Postgres · Docker<animate attributeName="opacity" begin="0s" dur="2.650s" keyTimes="0;0.8113;1" values="0;0;1" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1" fill="freeze"/></text>
         </g>
       </g>
     </g>
