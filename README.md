@@ -2,11 +2,12 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-  <img alt="Dhanush Aleti — AI Orchestrator, AI/ML Engineer, Full-Stack Developer" width="100%" src="./light.svg">
+  <img alt="Dhanush Aleti — AI Orchestrator, founder of Raha" width="100%" src="./light.svg">
 </picture>
 
 <br/><br/>
 
+<a href="https://raha-iota.vercel.app"><img src="https://img.shields.io/badge/Raha-live-10B981?style=for-the-badge&labelColor=030712" alt="Raha — live"/></a>
 <a href="https://www.linkedin.com/in/dhanushaleti/"><img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:aletidhanush9999@gmail.com"><img src="https://img.shields.io/badge/Email-6366F1?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://github.com/DhanushAleti"><img src="https://img.shields.io/badge/GitHub-4F46E5?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -21,18 +22,37 @@
 
 ## About
 
-I'm a student at IIT Madras who spends most of his time building. I work as an
-**AI orchestrator** — designing systems where models, tools, and agents do the heavy
-lifting, and my job is deciding how the pieces fit, where the handoffs happen, and what
-to do when one of them fails.
+I'm a founder and an **AI orchestrator**. I build companies the way you'd build a system:
+models, tools, and agents do the execution, and my job is deciding how the pieces fit,
+where the handoffs happen, and what to do when one of them fails.
 
-In practice that means LLM products built end to end: retrieval pipelines, agent
-workflows, tool-use orchestration, and the full-stack surface wrapped around them. I also
-keep one foot in scientific computing — transit-search pipelines over real NASA telescope
-data and orbital mechanics are what got me into programming in the first place.
+I run a one-person company. That means I ship the product, write the code, do the
+research, and talk to the customers — with an AI stack doing the volume work underneath.
+Right now all of that points at **Raha**.
 
-I build in public. Most of what I learn ends up as a repo here, including the parts that
-are still rough.
+I build in public. Most of what I learn ends up as a repo here, including the rough parts.
+
+<br/>
+
+## Raha — creator taxes, handled
+
+**[raha-iota.vercel.app](https://raha-iota.vercel.app)** · live in production
+
+Tax and GST compliance built for Indian creators earning ₹20L–₹2Cr — the band that has
+outgrown a spreadsheet but isn't big enough for a full-time finance team.
+
+- **FIRC tracking** for foreign-income receipts
+- **GST-compliant invoicing** built to the actual filing format
+- **A live "set aside this much" counter**, so tax stops being a year-end surprise
+
+Every figure is presented as an estimate to be confirmed with a qualified CA — the
+product assists with compliance, it does not file on your behalf.
+
+Built solo, end to end: product definition, data model, auth, billing surface, and
+deployment. `Next.js` · `TypeScript` · `Supabase` · `Vercel` · 68 unit tests, production
+build green.
+
+<sub>Source is private — happy to walk through the code or architecture.</sub>
 
 <br/>
 
@@ -42,23 +62,22 @@ are still rough.
 |---|---|---|
 | **[Exoplanet Hunter (TESS)](https://github.com/DhanushAleti/exoplanet-hunter-tess)** | Transit-search pipeline over real NASA TESS light curves. Queries MAST, stitches and flattens light curves, runs a BLS periodogram, and logs candidate signals to a catalog. | `Python` `Lightkurve` `NumPy` |
 | **[GPT From Scratch](https://github.com/DhanushAleti/gpt-from-scratch-dhanush)** | A character-level GPT built from the ground up — tokenizer, bigram baseline, self-attention, and a small transformer. Implemented step by step rather than via a high-level library. | `Python` `PyTorch` |
-| **[EdList Dashboard](https://github.com/DhanushAleti/edlist-dashboard)** · [live ↗](https://edlist-dashboard.vercel.app/) | Project-management dashboard with a modern App Router frontend, typed end to end and deployed on Vercel. | `Next.js 15` `TypeScript` `Tailwind` |
 | **[Code Debugger Agent](https://github.com/DhanushAleti/code-debugger-agent)** | An AI agent that analyses code, diagnoses failures, and proposes fixes — built to shorten the debug loop. | `Python` `LLM tooling` |
 | **[RAG Pipeline](https://github.com/DhanushAleti/my-rag-project)** | Retrieval-augmented generation over a document corpus: chunking, embeddings, vector retrieval, and grounded answer synthesis. | `Python` `Embeddings` |
+| **[FounderFlow AI Toolkit](https://github.com/DhanushAleti/founderflow-ai-toolkit)** · [live ↗](https://bold-venture-ai.lovable.app) | The prompt and system layer behind how I run a one-person company — structured tools for thinking, validating, and growing. | `Prompt systems` |
+| **[EdList Dashboard](https://github.com/DhanushAleti/edlist-dashboard)** · [live ↗](https://edlist-dashboard.vercel.app/) | Project-management dashboard with a modern App Router frontend, typed end to end and deployed on Vercel. | `Next.js 15` `TypeScript` `Tailwind` |
 | **[OrbitalMind](https://github.com/DhanushAleti/orbitalmind)** | Orbital-mechanics and astrodynamics workbench — trajectory reasoning and simulation-style analysis. | `Python` `SciPy` |
-| **[FounderFlow AI Toolkit](https://github.com/DhanushAleti/founderflow-ai-toolkit)** · [live ↗](https://bold-venture-ai.lovable.app) | A structured toolkit of prompts, systems, and templates for founders validating and growing startups. | `Prompt systems` |
 
 <br/>
 
-## Currently Building
+## Also In Progress
 
-Private repos — happy to walk through the code or architecture on request.
+Private while they take shape.
 
 | Project | What it is |
 |---|---|
-| **Project PHI** | Flagship build. AI-first product, full-stack, in active development. |
+| **Project PHI** | AI-first product, full-stack, in active development. |
 | **Founder Copilot** | An AI second brain for founders — search, chat, and reason over startup documents with RAG. |
-| **Raha** | Product MVP on a typed full-stack surface with Supabase and Vercel. |
 
 <br/>
 
@@ -95,14 +114,15 @@ Private repos — happy to walk through the code or architecture on request.
 
 <br/>
 
-## Contact
+## Get In Touch
 
-Open to **AI engineering and software engineering roles**, freelance work, and
-open-source collaboration.
+Talk to me if you're an **Indian creator dealing with GST and foreign income** — that's
+who Raha is built for, and I want to hear where it falls short. Also open to design
+partners, collaborators, and anyone building at the intersection of AI and real products.
 
+- **Raha** — [raha-iota.vercel.app](https://raha-iota.vercel.app)
 - **LinkedIn** — [in/dhanushaleti](https://www.linkedin.com/in/dhanushaleti/)
 - **Email** — [aletidhanush9999@gmail.com](mailto:aletidhanush9999@gmail.com)
-- **GitHub** — [@DhanushAleti](https://github.com/DhanushAleti)
 
 <br/>
 
